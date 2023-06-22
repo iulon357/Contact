@@ -1,6 +1,12 @@
+@font-face {
+    font-family: roman;
+    src: url(fonts/HelveticaNeueLTGEO-55Roman.ttf);
+}
 
-
-
+@font-face {
+    font-family: lt;
+    src: url(../fonts/HelveticaNeueLTStd-Lt.ttf);
+}
 
 * {
     margin: 0;
