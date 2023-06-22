@@ -46,3 +46,7 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    background-color:green;
+}

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icons8-contact-64.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
     <title>Contacts</title>
   </head>
@@ -38,29 +39,36 @@
       </div>
 
       <div class="right-side">
-        <label for="">სახელი, გვარი</label>
+        <label for="user-name">სახელი, გვარი</label>
         <input
           type="text"
           placeholder="შეიყვანეთ სახელი და გვარი"
-          id="name"
-          name="name"
+          id="user-name"
+          name="user-name"
         />
-        <label for="">ელ. ფოსტა</label>
+        <label for="user-email">ელ. ფოსტა</label>
         <input
           type="email"
-          placeholder="შეიყვანეთ მაილი"
+          placeholder="შეიყვანეთ ელ.ფოსტა"
           id="user-email"
-          class="form-input"
           name="user-email"
-          required
         />
-        <label for="">ტელეფონის ნომერი</label>
-        <label for="">შეტყობინება</label>
+        <label for="user-tel">ტელეფონის ნომერი</label>
+        <input
+          type="tel"
+          placeholder="შეიყვანეთ ტელეფონის ნომერი"
+          id="user-tel"
+          name="user-tel"
+        />
+        <label for="message">შეტყობინება</label>
+        <textarea name="message" id="message" cols="30" rows="10"> </textarea>
         <button type="button">გაგზავნა</button>
       </div>
     </div>
     <footer>
       <p>ყველა უფლება დაცულია</p>
+      <p>დამზადებულია</p>
+      <img class="logo" src="img/Group 72.png" alt="logo">
     </footer>
   </body>
 </html>
