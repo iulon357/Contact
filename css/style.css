@@ -1,27 +1,43 @@
 @font-face {
-    font-family: roman;
-    src: url(fonts/HelveticaNeueLTGEO-55Roman.ttf);
+  font-family: roman;
+  src: url(fonts/HelveticaNeueLTGEO-55Roman.ttf);
 }
 
 @font-face {
-    font-family: lt;
-    src: url(../fonts/HelveticaNeueLTStd-Lt.ttf);
+  font-family: lt;
+  src: url(../fonts/HelveticaNeueLTStd-Lt.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    background-color: #0A22F4;
-    color: #FFFFFF;
+  background-color: #0a22f4;
+  color: #ffffff;
+  display: flex;
 }
 
 iframe {
-    width: 463px;
-    height: 197px;
-    border-radius: 15px;
-    /* margin-top: 58px; */
-  }
+  width: 463px;
+  height: 197px;
+  border-radius: 15px;
+  /* margin-top: 58px; */
+}
+
+.contact, .mob, .mail{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #0a22f4;
+  border-radius: 50px;
+  padding: 22px;
+}
